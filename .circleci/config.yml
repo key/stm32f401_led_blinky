@@ -20,12 +20,7 @@ jobs:
               gcc-arm-none-eabi
       - run:
           command: |
-            cd Release
-            cmake ..
-            cmake --build .
-            cd Debug
-            cmake ..
-            cmake --build .
+            .circleci/build_linux.sh|
 
 workflows:
   workflows:
