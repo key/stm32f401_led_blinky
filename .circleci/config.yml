@@ -11,6 +11,7 @@ jobs:
   build:
     <<: *defaults
     steps:
+      - checkout
       - run:
           command: |
             cd Release
