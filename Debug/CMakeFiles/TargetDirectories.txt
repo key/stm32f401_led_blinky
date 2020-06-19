@@ -1,0 +1,3 @@
+/Users/key/STM32CubeIDE/workspace_1.3.0/led_blink/Debug/CMakeFiles/rebuild_cache.dir
+/Users/key/STM32CubeIDE/workspace_1.3.0/led_blink/Debug/CMakeFiles/edit_cache.dir
+/Users/key/STM32CubeIDE/workspace_1.3.0/led_blink/Debug/CMakeFiles/led_blink.elf.dir
