@@ -21,7 +21,11 @@ jobs:
       - run:
           command: |
             cd Release
-            make
+            cmake ..
+            cmake --build .
+            cd Debug
+            cmake ..
+            cmake --build .
 
 workflows:
   workflows:
