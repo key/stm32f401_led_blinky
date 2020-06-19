@@ -10,4 +10,7 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - welcome/run
+      - run:
+          command: |
+            cd Release
+            make
