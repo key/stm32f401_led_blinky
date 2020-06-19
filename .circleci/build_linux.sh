@@ -7,5 +7,5 @@ for target in ${TARGETS[@]}; do
     cmake ..
     cmake --build .
     cd ..
-end
+done
 
