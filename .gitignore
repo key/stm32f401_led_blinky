@@ -6,6 +6,7 @@
 *.ko
 *.obj
 *.elf
+*.bin
 
 # Linker output
 *.ilk
@@ -58,3 +59,4 @@ dkms.conf
 CMakeCache.txt
 */Makefile
 */makefile
+*/CMakeFiles/*
