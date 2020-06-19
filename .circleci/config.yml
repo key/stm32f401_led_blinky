@@ -14,6 +14,12 @@ jobs:
       - checkout
       - run:
           command: |
+            sudo apt update
+            sudo apt install \
+              cmake \
+              gcc-arm-none-eabi
+      - run:
+          command: |
             cd Release
             make
 
