@@ -20,7 +20,7 @@ jobs:
               gcc-arm-none-eabi
       - run:
           command: |
-            .circleci/build_linux.sh|
+            .circleci/build_linux.sh
 
 workflows:
   workflows:
